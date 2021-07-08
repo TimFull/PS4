@@ -1,2 +1,204 @@
-# PS4
-PS4折腾主页
+<html manifest="Cache.manifest">
+<head>
+    <meta charset="utf-8" />
+    <title>PS4 7.55专用折腾菜单 V6</title>
+    <link rel="shortcut icon" href="favicon.ico"></link>
+</head>   
+<body>
+<style>body{background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;}</style>
+<style>img:hover {transform: scale(1.2); /* (100% zoom - Note: if the zoom is too large, it will go outside of the viewport) */}</style>
+<style>.center{display: block;margin-left: auto;margin-right: auto;}</style>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="正在安装离线缓存菜单: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="离线缓存菜单安装完成";},2000);setTimeout(function(){window.msgs.innerHTML="将本页添加到浏览器书签后，关闭浏览器断开网络即可，再次打开本书签时即为脱机的离线缓存菜单";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+</script>
+    <style="display: block;color:#FFFFFF'">
+        
+        <p><b><font size="5" color=red>此菜单仅适用于PS4的7.55固件！！【进系统后建议等2分钟！再破解更稳定】</font>
+        <ol>
+            <li>单击MIRA或HEN进行破解，根据您的个人习惯。 大约几分钟后，Hen会得到<font size="4" color=red>“成功!”</font>提示，<font size="4" color=red>Mirahen则会黑屏重启XMB桌面，</font>以上说明破解完成了。
+			<br />【如果提示<font size="4" color=red>“系统内存不足”</font>，请点击<font size="4" color=red>“确认”</font>继续。】
+             <b>注意：使用Mira破解成功时，屏幕将黑屏几秒钟这是正常的！</b><br />
+             <li></a>在此过程中，如果您收到一条警告:<font size="4" color=red>“失败，请重启PS4再试.”</font>
+				这种情况说明破解失败了，您必须重新启动PS4。最好不要关闭对话框，按住手柄PS键，唤出电源管理选择重启。
+                 <br />
+                破解页面如果卡住超过一分钟无反应，请关闭页面或者重启您的PS4，然后重试。
+                
+                如果KP内核当机（看起来像突然断电），请按PS4上的电源按钮多次，直到它再次启动。
+            </li>
+            <li></a>Webkit破解失败
+                <b>不会损害您的PS4。 这里的成功率约为10-15％，您需要耐心。</b></li>
+   
+    </div>
+    <div id="progress"></div><style>
+<style>
+body{
+background-color:#23238E;
+margin:0;
+padding:0;
+text-align:center;
+}
+.option{
+cursor:crosshair;
+margin:5px auto;
+padding:5px;
+background-color:#fff;
+font-family:微软雅黑;
+font-size:26px;
+width:700px;
+}
+   .rangefan {
+        -webkit-appearance: none;
+        vertical-align: middle;
+        outline: 5;
+        padding: 0;
+        border: 1px solid #fff;
+        background: #ff3300;
+        border-radius: 10px;
+        width: 50%;
+      }
+      .rangefan::-webkit-slider-runnable-track {
+        background-color: 0 0;
+        height: 6px;
+        border-radius: 3px;
+        border: 1px solid transparent;
+      }
+      .rangefan::-webkit-slider-thumb {
+        -webkit-appearance: none !important;
+        border-radius: 100%;
+        background-color: #013ADF;
+        height: 18px;
+        width: 18px;
+        margin-top: -7px;
+      }
+      .rangefan:active::-ms-thumb {
+        border: none;
+      }
+      #outputfan {
+        border: 1px solid #d7dbdd;
+        font-size: 15px;
+        padding: 0.3em 0.3em;
+        margin: 0.1em;
+        border-radius: 3px;
+        min-width: 2em;
+        text-align: center;
+      }
+      #submitfan {
+        border: 1px solid #d7dbdd;
+        background: 0 0;
+        font-size: 15px;
+        padding: 0.3em 0.3em;
+        margin: 0.1em;
+        border-radius: 3px;
+        text-align: center;
+        color:#fff;
+      }
+
+ button {
+            
+            border: 2px solid black;
+            border-radius: 10px;
+			width: 150px;
+            height: 40px;            
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+            box-shadow: 0 5px 20px 0 white;
+           
+}
+button:hover {
+            box-shadow: 0 5px 50px 0 white;
+            color: white;
+            border-radius: 10px;
+            background-color: #0F0F53;
+}
+
+   #updateinfo {
+      
+      color: red;
+	  font-size: 26px;
+      
+    }
+	
+	
+    #payload_info {
+      color:red;
+     
+      font-size: 20px;
+   
+    }
+</style>
+<body> 
+<h1 style="margin-bottom:0;clear:both;text-align:center;"> </h1></div>
+</style>
+<body>
+<style>
+p{color:#000000;}
+</style>
+
+<body> 
+
+</a>
+<hr>
+<div style="text-align:center" font size="5" ><div style=color:#EE2C2C;"><h2 id=msgs style='text-align:center;'>【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。</h2>
+<hr>
+<a href="payload-1.html#p0=mira/mira.js&p1=Goldhen-755a.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=Goldhen-755a.js"><button  style='width:250px;font-size:22px;text-align:center;background-color:#EE2C2C;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='黄金Hen1.0正式版。运行自制，支持绕过CE30391-6、VR、可休眠、USBHDD挂载、FTP(端口2121)等。'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>黄金Hen1.0</button></a> 
+<a href="payload-1.html#p0=mira/mira.js&p1=goldhen-755b.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=goldhen-755b.js"><button  style='width:250px;font-size:22px;text-align:center;background-color:#EE2C2C;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='黄金Hen1.1B3内测版。运行自制，支持绕过CE30391-6、VR、可休眠、USBHDD挂载、FTP(端口2121)等。'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>黄金Hen1.1B</button></a> 
+<a href="payload-1.html#p0=mira/mira.js&p1=Goldhen-755.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=Goldhen-755.js"><button  style='width:250px;font-size:22px;text-align:center;background-color:#EE2C2C;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='黄金Hen1.1正式版。运行自制，支持绕过CE30391-6、VR、可休眠、USBHDD挂载、FTP(端口2121)等。'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>黄金Hen1.1(推荐)</button></a> 
+<a href="payload-1.html#p0=henSP8.js&p1=loader.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=henSP8.js&p1=loader.js"><button  style='width:250px;font-size:22px;text-align:center;background-color:#EE2C2C;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='MiraHen破解：运行自制，绕过CE30391-6、VR支持、USBHDD挂载、休眠、伪装FW8.50、Todex菜单'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>HenSP8</button></a> 
+<a href="payload-1.html#p0=henSP7.js&p1=loader.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=henSP7.js&p1=loader.js"><button  style='width:250px;font-size:22px;text-align:center;background-color:#EE2C2C;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='MiraHen破解：运行自制，VR支持、USBHDD挂载、伪装FW8.50。(不支持休眠)'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>HenSP7</button></a> 
+<br><br>
+<a href="payload-1.html#p0=mira/mira.js&p1=ftp.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=ftp.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='FTP服务端口1337，开启对PS4内置硬盘上的访问权限'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>FTP服务(1337)</button></a>
+<a href="payload-1.html" tppabs="https://psgo.gitee.io/755FW/payload.html"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='Bin文件加载器，端口9020'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>Bin加载器(9020)</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=orbis.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=orbis.js"><button  style='width:250px;font-size:22px;text-align:center;background-color:green;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='系统设置中追加orbis开发菜单，实时显示CPU、内存、温度等（需先黄金HEN破解，不支持HEN213或213b！）【汉化:不讲武德】'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>Orbis工具箱</button></a> 
+<a href="payload-1.html#p0=mira/mira.js&p1=1gb.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=1gb.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='Linux加载器，通过载荷引导USB存储器上的Linux， 分配1GB 显存'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>LINUX(1GB显存)</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=3gb.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=3gb.js"><button style="width:250px;font-size:22px;text-align:center;center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='Linux加载器，通过载荷引导USB存储器上的Linux， 分配3GB 显存'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>LINUX(3GB显存)</button></a>
+<br><br>
+<a href="payload-1.html#p0=mira/mira.js&p1=dumper.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=dumper.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='将光盘游戏或数字游戏转储到USB存储器，用来制作fpkg游戏安装文件'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" > <B>游戏转储</button></a>
+<a href="payload-1.html#p0=mira/mira.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='Bin文件加载器，端口9021'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>Bin加载器(9021)</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=rif.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=rif.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='当Mira安装的游戏，Hen无法运行时，可以通过Rif重签名工具修复'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>修复游戏RIF</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=dupdates.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=dupdates.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML=在PS4 HDD建立虚拟UPDATE文件，以阻止系统下载更新。'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>屏蔽系统升级</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=eupdates.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=eupdates.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='删除在PS4 HDD建立的虚拟UPDATE文件，以恢复系统更新。'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>激活系统升级</button></a>
+
+<br><br>
+<a href="payload-1.html#p0=mira/mira.js&p1=backup.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=backup.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='备份个人数据库文件到USB存储器'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" > <B>用户数据备份</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=restore.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=restore.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='还原USB存储器中的个人数据库到PS4'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" > <B>用户数据还原</button></a>
+<a href="javascript:if(confirm('http://ps4trainer.com/Trainer/index.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://ps4trainer.com/Trainer/index.html'" tppabs="http://ps4trainer.com/Trainer/index.html"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='在线加载ps4trainer网站的金手指【CUSA：美国 / 欧洲 / 通用】，需启用网络！'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" ><B>网页金手指</button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=ps4debug.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=ps4debug.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML=ps4debug菜单加载器，加载修改的存档文件等'"; onMouseOut="msgs2.innerHTML='移动光标至按钮，查看功能概述'" type="button"><B> debug加载器 </B></button></a>
+<a href="payload-1.html#p0=mira/mira.js&p1=app2usb.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=app2usb.js"><button style="width:250px;font-size:22px;text-align:center;background-color:#013ADF;color:#FFFFFF;"class="pointer" onMouseOver="msgs.innerHTML='将PS4内置游戏转移到USB存储器（外置存储器需EXfat格式）'" ; onMouseOut="msgs.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。''" ><B>App2usb转移</button></a>
+<br>
+
+   <h4><p><font size="5"></p></font></b>
+</div>
+<div id="fanprogress" ><a href="75x.html" tppabs="https://psgo.gitee.io/755FW/75x.html"><button  style='width:240px;font-size:22px;text-align:center;background-color:#0B6121;text-shadow: 4px 4px 4px black;color:#FFFFFF'class="pointer" onMouseOver="msgs.innerHTML='添加与激活ID。【注意：修改ID字符串，或导致原ID游戏存档失效】'" ; onMouseOut="msgs2.innerHTML='【PSGO 7.55系统专用V6版】移动光标至按钮，查看功能概述。。'" type="button"><B>ID激活与编辑</button></a> 
+
+<input id="inputfan" class="rangefan" type="range" min="45" max="85" step="1" />
+<output id="outputfan" style="background-color:#000000;color:#33ff00"></output><a href="payload-1.html#p0=mira/mira.js&p1=fan-threshold.js" tppabs="https://psgo.gitee.io/755FW/payload.html#p0=mira/mira.js&p1=fan-threshold.js"><button id="submitfan">
+<div style="width:140px;font-size:22px;background-color:#FF2D2D;">CPU温控</button></a>
+</div>
+
+<script>
+    let defaultTemp = 78;
+    let outputFan =document.getElementById("outputfan");
+    null === localStorage.getItem("fancontrol") 
+    ? (localStorage.setItem("fancontrol", defaultTemp), outputFan.innerText = localStorage.getItem("fancontrol")) 
+    : outputFan.innerText = localStorage.getItem("fancontrol")
+    document.getElementById("inputfan").addEventListener("input", function (e) {
+        let temp = e.target.value;
+        localStorage.setItem("fancontrol", temp);
+        outputFan.innerText = localStorage.getItem("fancontrol");
+        
+    })
+    document.getElementById("inputfan").setAttribute("value", localStorage.getItem("fancontrol"));
+</script>
+</body>
+
+<p><b><font size="4"><div style=color:#000000 ;">开发人员: TheFlow、Specter、Sleirsgoevy、AIAzif、zecoxao、LM、SISTR0、ciss84、Zerofo...【菜单制作：TimFull&nbsp <font size="4">】</b>
+<br/>
+</div>
+<br/><style="text-align:center">
+<font size="5" color=red><marquee width="1400"  height="50" Behaviour="Scroll" scrollamount="6"  >
+重要提示：更换或更新本菜单，请先三清浏览器【按options键：删除全部网页历史、删除网站资料、删除Cookie】，重启浏览器，便会自动缓存新菜单！缓存完成并收藏本页至书签，关闭网络，打开浏览器使用本离线菜单。</font>
+</body>
+</html>
